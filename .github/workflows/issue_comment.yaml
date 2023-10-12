@@ -33,6 +33,6 @@ jobs:
             '}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}} 
-          ORGANIZATION: ${{ github.event.organization.login}} 
+          ORGANIZATION: "yasir2000" 
           REPOSITORY: ${{ github.event.repository.name}}
           ISSUE_NUMBER: ${{ github.event.issue.number}}
